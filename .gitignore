@@ -1,4 +1,5 @@
-*.docx
+*.png
+*.jpg
+*.jpeg
 *.doc
-
-*.pdf
+*docx
