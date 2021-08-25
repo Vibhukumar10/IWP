@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: rgb(80, 205, 255);
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  height: 150vh;
+  z-index: 1;
+}
+p {
+  background: aqua;
+  border: 3px solid blue;
+  padding: 10px;
+  margin: 10px;
+}
+span {
+  background: red;
+  border: 1px solid black;
+}
+.z-index {
+  background-color: transparent;
+  padding-left: 220px;
+  border: 3px solid greenyellow;
+}
+.sticky {
+  position: sticky;
+  top: 0;
+  width: 100%;
+  text-align: center;
+  z-index: 2;
+}
+.positioned {
+  width: 80%;
+  position: relative;
+  top: 0px;
+  left: 220px;
+}
+.absolute {
+  top: 10px;
+  left: 10px;
+  position: absolute;
+  width: 200px;
+  border: 2px solid red;
+  z-index: -1;
+}
