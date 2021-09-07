@@ -1,0 +1,36 @@
+html,
+body {
+  min-height: 100vh;
+  width: 100%;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.description {
+  width: 50%;
+  margin: 20px 0;
+}
+
+.id {
+  margin: 0 auto 20px;
+}
+
+img {
+  border-radius: 5px;
+}
+
+button {
+  width: 50px;
+}
