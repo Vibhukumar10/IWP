@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Pickup Truck</title>
+  </head>
+  <body>
+    <form><input type="text" name="fname" value="Red pickup truck" /></form>
+    <p>Click the button to validate the string</p>
+
+    <button onclick="validateForm()">Try it</button>
+    <script>
+      function validateForm() {
+        console.log("Hello");
+        var z = document.getElementsByName("fname");
+        var x = z.value;
+        var y = "";
+        var regex =
+          /(((red|Red)(\s[a-z]+){0,2}(\s)(pickup|pick-up|pick\sup)(\s)(truck))|((pickup|pick-up|pick\sup)(\s)(truck)(\s[a-z]+){0,2}(\s)(red|Red)))(\s)(\$)([0-9]{1,3})((\,)[0-9]{3})*((\.)[0-9]{2})?$/;
+        var n = regex.test(x);
+        console.log(n);
+        if (n === false) {
+          alert("Invalid String!");
+        } else {
+          alert("Valid String!");
+        }
+      }
+    </script>
+  </body>
+</html>
