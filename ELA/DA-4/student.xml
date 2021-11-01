@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="student.xsl"?>
+<STUDENTS>
+    <STUDENT>
+        <REGID>19BCE0215</REGID>
+        <NAME>Vibhu Kumar Singh</NAME>
+        <COLLEGE>SCOPE</COLLEGE>
+        <BRANCH>Computer Science and Engineering</BRANCH>
+        <YEAR>2019</YEAR>
+        <EMAILID>vibhukumar.singh2019@vitstudent.ac.in</EMAILID>
+        <CGPA>8.84</CGPA>
+        <COURSES>7</COURSES>
+        <CREDITS>24</CREDITS>
+    </STUDENT>
+    <STUDENT>
+        <REGID>19BCE0634</REGID>
+        <NAME>Avnish Tiwari</NAME>
+        <COLLEGE>SCOPE</COLLEGE>
+        <BRANCH>Computer Science and Engineering</BRANCH>
+        <YEAR>2019</YEAR>
+        <EMAILID>avnish.tiwari2019@vitstudent.ac.in</EMAILID>
+        <CGPA>8.67</CGPA>
+        <COURSES>6</COURSES>
+        <CREDITS>20</CREDITS>
+    </STUDENT>
+    <STUDENT>
+        <REGID>19BCE0033</REGID>
+        <NAME>Atishay Jain</NAME>
+        <COLLEGE>SCOPE</COLLEGE>
+        <BRANCH>Computer Science and Engineering</BRANCH>
+        <YEAR>2019</YEAR>
+        <EMAILID>atishay.jain2019@vitstudent.ac.in</EMAILID>
+        <CGPA>8.75</CGPA>
+        <COURSES>7</COURSES>
+        <CREDITS>23</CREDITS>
+    </STUDENT>
+    <STUDENT>
+        <REGID>19BCE0011</REGID>
+        <NAME>Mohit Kumar</NAME>
+        <COLLEGE>SCOPE</COLLEGE>
+        <BRANCH>Computer Science and Engineering</BRANCH>
+        <YEAR>2019</YEAR>
+        <EMAILID>mohit.kumar2019@vitstudent.ac.in</EMAILID>
+        <CGPA>7.85</CGPA>
+        <COURSES>5</COURSES>
+        <CREDITS>20</CREDITS>
+    </STUDENT>
+    <STUDENT>
+        <REGID>19BCE0067</REGID>
+        <NAME>Mayank Raj Anand</NAME>
+        <COLLEGE>SCOPE</COLLEGE>
+        <BRANCH>Computer Science and Engineering</BRANCH>
+        <YEAR>2019</YEAR>
+        <EMAILID>mayank.raj2019@vitstudent.ac.in</EMAILID>
+        <CGPA>8.45</CGPA>
+        <COURSES>7</COURSES>
+        <CREDITS>24</CREDITS>
+    </STUDENT>
+</STUDENTS>
