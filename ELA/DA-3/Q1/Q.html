@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+  <script>
+    let b1_var = 0;
+
+    function b1() {
+      b1_var++;
+
+      document.getElementById("bc1").innerHTML = b1_var;
+    }
+
+    let b2_var = 0;
+
+    function b2() {
+      b2_var++;
+
+      document.getElementById("bc2").innerHTML = b2_var;
+    }
+
+    let b3_var = 0;
+
+    function b3() {
+      b3_var++;
+
+      document.getElementById("bc3").innerHTML = b3_var;
+    }
+
+    let b4_var = 0;
+
+    function b4() {
+      b4_var++;
+
+      document.getElementById("bc4").innerHTML = b4_var;
+    }
+
+    let b5_var = 0;
+
+    function b5() {
+      b5_var++;
+
+      document.getElementById("bc5").innerHTML = b5_var;
+    }
+
+    let b6_var = 0;
+
+    function b6() {
+      b6_var++;
+
+      document.getElementById("bc6").innerHTML = b6_var;
+    }
+
+    let totall = 0;
+
+    function total() {
+      totall += 100 * b1_var;
+      totall += 200 * b2_var;
+      totall += 300 * b3_var;
+      totall += 150 * b4_var;
+      totall += 100 * b5_var;
+      totall += 200 * b6_var;
+
+      document.getElementById("tot").innerHTML = totall;
+    }
+  </script>
+
+  <body>
+    <div style="display: grid; place-items: center">
+      <table>
+        <tr>
+          <td><button onClick="b1()">Book1</button></td>
+          <td>
+            <p id="bc1"></p>
+          </td>
+          <td><button onclick="b2()">Book2</button></td>
+          <td>
+            <p id="bc2"></p>
+          </td>
+          <td><button onclick="b3()">Book3</button></td>
+          <td>
+            <p id="bc3"></p>
+          </td>
+        </tr>
+
+        <tr>
+          <td><button onclick="b4()">Book4</button></td>
+          <td>
+            <p id="bc4"></p>
+          </td>
+          <td><button onclick="b5()">Book5</button></td>
+          <td>
+            <p id="bc5"></p>
+          </td>
+          <td><button onclick="b6()">Book6</button></td>
+          <td>
+            <p id="bc6"></p>
+          </td>
+        </tr>
+      </table>
+      <br />
+      <button onclick="total()">TOTAL</button>
+      <h1 id="tot"></h1>
+    </div>
+  </body>
+</html>
